@@ -1,0 +1,37 @@
+
+
+<div id="myCarousel" class="carousel slide text-center" style="top: 10px">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img style="height: 300px;width:300px" src="http://hbimg.b0.upaiyun.com/10c18a254a7816f18a3b0efaae8c35410e9a6db098da-UVbzzv_fw658" alt="First slide">
+            <span class="text-center">书籍</span>
+        </div>
+        <div class="item">
+            <img style="height: 300px;width: 300px" src="http://hbimg.b0.upaiyun.com/84150c70481bee507198047b0e62b107661226917003-gqu3ck_fw658" alt="Second slide">
+            <span class="text-center">书籍</span>
+        </div>
+        <div class="item">
+            <img style="height: 300px;width: 300px" src="http://hbimg.b0.upaiyun.com/72a672782f97f86b9cc0119fb902a918f705a90d8e9b-6rZlvR_fw658" alt="Third slide">
+            <span class="text-center">书籍</span>
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left" href="#myCarousel"
+       data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel"
+       data-slide="next">&rsaquo;</a>
+</div>
+
+
+<div style="margin-top: 60px;bottom: 20px" >
+    <li ng-repeat="book in books">
+        书名:{{book.title}}&nbsp;&nbsp;&nbsp;作者:{{book.author}}
+    </li>
+</div>
