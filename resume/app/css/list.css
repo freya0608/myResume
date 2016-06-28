@@ -1,0 +1,11 @@
+.v-time{
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+.v-location{
+    position: relative;
+}
+.v-title{
+    color: #00D0BC
+}

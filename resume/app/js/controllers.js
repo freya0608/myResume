@@ -12,15 +12,31 @@ bookStoreCtrls.controller('HelloCtrl', ['$scope',
 bookStoreCtrls.controller('BookListCtrl', ['$scope',
     function($scope) {
         $scope.books = [{
-            title: "《Ext江湖》",
-            author: "大漠穷秋"
+            title: "《javascript权威指南》",
+            author: "淘宝团队翻译"
         }, {
-            title: "《ActionScript游戏设计基础（第二版）》",
-            author: "大漠穷秋"
+            title: "《图解CSS3》",
+            author: "大漠"
         }, {
             title: "《用AngularJS开发下一代WEB应用》",
             author: "大漠穷秋"
-        }];
+        }, {
+            title: "《nodejs高级编程》",
+            author: "Pedro Teixeira"
+        }, {
+            title: "《用AngularJS开发下一代WEB应用》",
+            author: "大漠穷秋"
+        }, {
+            title: "《AngularJS权威教程》",
+            author: "Ari Lerner"
+        }, {
+            title: "《HTML,CSS,JS网页制作》",
+            author: "刘西杰，柳林"
+        }, {
+            title: "《HTTP权威指南》",
+            author: "David Gourly,Brian Totty"
+        }
+        ];
         $scope.pageClass="list";
     }
 ]);
